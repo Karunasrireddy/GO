@@ -2,18 +2,20 @@ package main
 
 import (
 	"fmt"
-
 	"github.com/Karunasrireddy/puppy"
 )
 
-func main() {
+func main(){
+	fmt.Println("Hello World!!")
 	s1 := puppy.Bark()
 	s2 := puppy.Barks()
+	s3 := puppy.BigBark()
+	s4 := puppy.BigBarks()
+
 	fmt.Println(s1)
 	fmt.Println(s2)
+	fmt.Println(s3)
+	fmt.Println(s4)
 
-	// also like this
-
-	fmt.Println(puppy.Bark())
-	fmt.Println(puppy.Barks())
+	puppy.From12()
 }
